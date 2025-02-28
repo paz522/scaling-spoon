@@ -1,5 +1,9 @@
 import * as THREE from 'three';
 import { PointerLockControls } from 'three/examples/jsm/controls/PointerLockControls.js';
+import { inject } from '@vercel/analytics';
+
+// Vercel Analyticsを初期化
+inject();
 
 // シーンの初期化
 const scene = new THREE.Scene();
