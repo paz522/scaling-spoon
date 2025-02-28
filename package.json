@@ -1,0 +1,25 @@
+{
+  "name": "space-walk",
+  "version": "1.0.0",
+  "description": "WebGLで実現する3D宇宙探索アプリ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "space",
+    "3d",
+    "webgl",
+    "threejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+} 
